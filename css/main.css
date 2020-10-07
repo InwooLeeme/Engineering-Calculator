@@ -1,0 +1,21 @@
+.container {
+  width: 35%;
+  height: 40%;
+  border: 1px solid gray;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .display {
+  width: 98.5%;
+  height: 80px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  bottom: 35%;
+  margin: -25px;
+  position: relative;
+  bottom: 5px;
+}
