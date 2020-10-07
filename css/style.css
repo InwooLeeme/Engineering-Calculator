@@ -1,0 +1,15 @@
+@import "reset.css";
+@import "main.css";
+@import "table.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
