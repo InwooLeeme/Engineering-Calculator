@@ -8,7 +8,9 @@
   </head>
   <body>
       <div class="container">
-          <div class="display"></div>
+          <div class="display">
+              <input type="text" id="display">
+          </div>
           <div class="buttons">
               <table class="first-table">
                   <tr>
@@ -22,9 +24,9 @@
                       <td>In</td>
                   </tr>
                   <tr>
-                      <td>π</td>
-                      <td>cos</td>
-                      <td>log</td>
+                      <td onclick="getValue('π')">π</td>
+                      <td onclick="getValue('cos')">cos</td>
+                      <td onclick="getValue('log')">log</td>
                   </tr>
                   <tr>
                       <td>e</td>
@@ -39,38 +41,38 @@
               </table>
               <table class="second-table">
                   <tr>
-                      <td>(</td>
-                      <td>)</td>
-                      <td>%</td>
-                      <td>AC</td>
+                      <td onclick="getValue('(')">(</td>
+                      <td onclick="getValue(')')">)</td>
+                      <td onclick="getValue('/')">%</td>
+                      <td onclick="backSpace()">AC</td>
                   </tr>
                   <tr>
-                      <td>7</td>
-                      <td>8</td>
-                      <td>9</td>
-                      <td>÷</td>
+                      <td onclick="getValue(7)">7</td>
+                      <td onclick="getValue(8)">8</td>
+                      <td onclick="getValue(9)">9</td>
+                      <td onclick="getValue('/')">÷</td>
                   </tr>
                   <tr>
-                      <td>4</td>
-                      <td>5</td>
-                      <td>6</td>
-                      <td>x</td>
+                      <td onclick="getValue(4)">4</td>
+                      <td onclick="getValue(5)">5</td>
+                      <td onclick="getValue(6)">6</td>
+                      <td onclick="getValue('x')">x</td>
                   </tr>
                   <tr>
-                      <td>1</td>
-                      <td>2</td>
-                      <td>3</td>
-                      <td>-</td>
+                      <td onclick="getValue(1)">1</td>
+                      <td onclick="getValue(2)">2</td>
+                      <td onclick="getValue(3)">3</td>
+                      <td onclick="getValue('-')">-</td>
                   </tr>
                   <tr>
-                      <td>0</td>
-                      <td>.</td>
-                      <td>=</td>
-                      <td>+</td>
+                      <td onclick="getValue(0)">0</td>
+                      <td onclick="getValue('.')">.</td>
+                      <td onclick="">=</td>
+                      <td onclick="getValue('+')">+</td>
                   </tr>
               </table>
           </div>
       </main>
-    <script src=""></script>
+    <script src="script/index.js"></script>
   </body>
 </html>

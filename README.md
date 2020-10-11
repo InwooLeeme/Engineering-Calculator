@@ -2,6 +2,10 @@
 Make engineering calculator using data structure,html,css, and javascript
 
 # ToDos
-- [] CSS
+- [ ] CSS
 - [x] HTML Form
-- [] JavaScript Function
+- JavaScript Function
+    - [x] Get value from the table.
+    - [x] Clear Function.
+    - [ ] Get value from json.
+    - [ ] Categorization by Operator.
