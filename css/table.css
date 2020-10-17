@@ -6,10 +6,8 @@
   justify-content: center;
   position: relative;
   top: 0px;
-  background-color: black;
-  border-radius: 0px 0px 10px 10px;
 }
-
+/* 
 .buttons .first-table {
   margin-right: 5px;
 }
@@ -17,10 +15,13 @@
 .buttons .second-table {
   margin-left: 5px;
 }
-
+ */
 table {
-  border-collapse: separate;
-  border-spacing: 5px;
+  /* border-collapse: separate;
+  border-spacing: 5px; */
+  width: 100%;
+  height: 250px;
+  border-radius: 0px 0px 10px 10px;
 }
 
 table td {
@@ -31,6 +32,11 @@ table td {
   border-collapse: separate;
   border: 1px solid black;
   text-align: center;
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: #4a69bd;
+  font-weight: 600;
+}
+
+table td:not(.whiteColor) {
+  color: #82ccdd;
 }
